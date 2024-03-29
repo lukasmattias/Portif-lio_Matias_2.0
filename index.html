@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- Meta tags -->
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Title -->
+      <title>Portfólio | Matias - Desenvolvedor Front-End</title>
+      <!-- External stylesheet -->
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/stylesTailwind.css">
+      <script src="https://cdn.tailwindcss.com"></script>
+      <script src="https://cdn.tailwindcss.com"></script>
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.0.4/tailwind.min.css" rel="stylesheet"/>
+      <link rel="icon" href="src/img/icon-m-removebg-preview.png">
+      <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+   </head>
+   <body>
+
+      <!-- INICIO DO HEADER -->
+      <header class="w-full h-auto font-fira-sans">
+         <nav class="p-6 md:p-4  md:pb-4  bg-[#03989E] shadow md:flex md:items-center md:justify-between fixed top-0 left-0 right-0">
+            <div class="flex justify-between items-center">
+               <span class="text-2xl font-Poppins cursor-pointer flex flex-row items-center gap-4">
+                  <img class="h-6 inline-block rounded" src="src/img/logo_matias.png">
+                  <h2 class="text-white text-2xl font-semibold tracking-wide">Portifólio</h2>
+               </span>
+               <span class="flex items-center text-4xl text-white border border-white rounded border-opacity-50 cursor-pointer mx-2 md:hidden block" onclick="Menu(this)">
+                  <ion-icon name="menu"></ion-icon>
+               </span>
+            </div>
+            <ul class="gap-2 text-black md:text-white md:flex md:items-center md:static absolute bg-white md:bg-transparent w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
+               <li class="my-4 md:my-0">
+                  <a href="#" class="px-4 py-2 text-xl hover:text-black hover:bg-[#FFBD59] duration-500  rounded-md">Home</a>
+               </li>
+               <li class="my-4 md:my-0">
+                  <a href="#" class="px-4 py-2 text-xl hover:text-black hover:bg-[#FFBD59] duration-500  rounded-md">Sobre</a>
+               </li>
+               <li class="my-4 md:my-0">
+                  <a href="#" class="px-4 py-2 text-xl hover:text-black hover:bg-[#FFBD59] duration-500  rounded-md">Projetos</a>
+               </li>
+               <li class="my-4 md:my-0">
+                  <a href="#" class="px-4 py-2 text-xl hover:text-black hover:bg-[#FFBD59] duration-500  rounded-md">Contato</a>
+               </li>
+            </ul>
+         </nav>
+      </header>
+      <!--FIM DO HEADER-->
+
+      <!-- INICIO DA SECTION HABILIDADES -->
+      <section id="services" class="dark:bg-slate-900 pb-32">
+         <div class="container mx-auto pt-32">
+            <!-- top -->
+            <div class="flex flex-col gap-3 items-center mb-8">
+               <h1 class=" font-bold text-3xl dark:text-white">Minhas habilidades:</h1>
+               <p class="w-4/5 md:3/4 text-center text-gray-400 text-justify">
+                  Como desenvolvedor web, minha abordagem ao design de websites é criar plataformas que fortaleçam a marca da sua empresa, garantindo ao mesmo tempo facilidade de uso e simplicidade para o seu público-alvo.
+               </p>
+            </div>
+            <!-- bottom -->
+            <div class="p-2 sm:p-0 flex flex-wrap justify-center gap-1 md:gap-4">
+
+               <!-- card -->
+               <div class="bg-gray-800 w-11/12 h-48 md:w-4/12 shadow-xl rounded-lg p-4 my-2 md:my-0 flex flex-col gap-2 justify-center">
+                  <div class="flex flex-row items-center gap-2">
+                     <svg class="h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M480 32l-64 368-223.3 80L0 400l19.6-94.8h82l-8 40.6L210 390.2l134.1-44.4 18.8-97.1H29.5l16-82h333.7l10.5-52.7H56.3l16.3-82H480z"/></svg>
+                     <h1 class="font-medium text-lg dark:text-white">CSS</h1>
+                  </div>
+
+                  <p class="text-gray-400 text-justify">
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi vero omnis laborum vitae reiciendis dolores architecto in nostrum, laboriosam repellat ut nihil accusantium, blanditiis eveniet consectetur.
+                  </p>
+               </div>
+               <!--card end-->
+
+               <!-- card -->
+               <div class="bg-gray-800 w-11/12 h-48 md:w-4/12 shadow-xl rounded-lg p-4 my-2 md:my-0 flex flex-col gap-2 justify-center">
+                  <div class="flex flex-row items-center gap-2">
+                     <svg class="h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M480 32l-64 368-223.3 80L0 400l19.6-94.8h82l-8 40.6L210 390.2l134.1-44.4 18.8-97.1H29.5l16-82h333.7l10.5-52.7H56.3l16.3-82H480z"/></svg>
+                     <h1 class="font-medium text-lg dark:text-white">CSS</h1>
+                  </div>
+
+                  <p class="text-gray-400 text-justify">
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi vero omnis laborum vitae reiciendis dolores architecto in nostrum, laboriosam repellat ut nihil accusantium, blanditiis eveniet consectetur.
+                  </p>
+               </div>
+               <!--card end-->
+
+               <!-- card -->
+               <div class="bg-gray-800 w-11/12 h-48 md:w-4/12 shadow-xl rounded-lg p-4 my-2 md:my-0 flex flex-col gap-2 justify-center">
+                  <div class="flex flex-row items-center gap-2">
+                     <svg class="h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M480 32l-64 368-223.3 80L0 400l19.6-94.8h82l-8 40.6L210 390.2l134.1-44.4 18.8-97.1H29.5l16-82h333.7l10.5-52.7H56.3l16.3-82H480z"/></svg>
+                     <h1 class="font-medium text-lg dark:text-white">CSS</h1>
+                  </div>
+
+                  <p class="text-gray-400 text-justify">
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi vero omnis laborum vitae reiciendis dolores architecto in nostrum, laboriosam repellat ut nihil accusantium, blanditiis eveniet consectetur.
+                  </p>
+               </div>
+               <!--card end-->
+
+               <!-- card -->
+               <div class="bg-gray-800 w-11/12 h-48 md:w-4/12 shadow-xl rounded-lg p-4 my-2 md:my-0 flex flex-col gap-2 justify-center">
+                  <div class="flex flex-row items-center gap-2">
+                     <svg class="h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M480 32l-64 368-223.3 80L0 400l19.6-94.8h82l-8 40.6L210 390.2l134.1-44.4 18.8-97.1H29.5l16-82h333.7l10.5-52.7H56.3l16.3-82H480z"/></svg>
+                     <h1 class="font-medium text-lg dark:text-white">CSS</h1>
+                  </div>
+
+                  <p class="text-gray-400 text-justify">
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi vero omnis laborum vitae reiciendis dolores architecto in nostrum, laboriosam repellat ut nihil accusantium, blanditiis eveniet consectetur.
+                  </p>
+               </div>
+               <!--card end-->
+            </div>
+         </div>
+      </section>
+      <!-- FIM DA SECTION HABILIDADES -->
+
+
+
+      <script>
+         // <!-- header script -->
+         function Menu(e){
+           let list = document.querySelector('ul');
+           if (e.name === 'menu') {
+             e.name = "close";
+             list.classList.add('top-[80px]', 'opacity-100');
+           } else {
+             e.name = "menu";
+             list.classList.remove('top-[80px]', 'opacity-100');
+           }
+         }
+      </script>
+
+
+
+   </body>
+</html>
